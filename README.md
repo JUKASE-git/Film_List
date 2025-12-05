@@ -40,3 +40,11 @@ O projeto utiliza **RelativeLayout** como base:
  - Abra o android Studio em importe o arquivo extraido
 
 ---
+
+## 👤Grupo
+ - Fernando Miguel
+ - Gustavo Benatti
+ - Kenzo Yoshida
+ - Luan Alves
+ - Mauro Geraldo
+ - Samuel Soares
