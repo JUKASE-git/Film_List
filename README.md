@@ -7,7 +7,7 @@ Um aplicativo simples de catálogo de filmes desenvolvido para fins acadêmicos.
 ## 📱 Demonstração
   
 Exemplo:  
-![Tela Principal](.tela-inicial.png)
+![Tela Principal](.tela-_nicial.png)
  
 ---
  
