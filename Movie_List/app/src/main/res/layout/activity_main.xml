@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/charcoal"
+        android:gravity="center"
+        android:id="@+id/linear_layout_header"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catálogo de filmes"
+            android:textSize="36sp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout_header"
+        android:background="@drawable/rounded_bg"
+        android:layout_margin="12dp"
+        android:padding="10dp"
+        android:id="@+id/relative_layout_item1"
+
+        >
+        <ImageView
+            android:id="@+id/image_view_filme1"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/inter"
+            />
+
+        <TextView
+            android:id="@+id/text_view_titulo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interstellar"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/image_view_filme1"
+            android:textSize="24sp"
+            />
+        <RatingBar
+            android:id="@+id/ratingBa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:rating="5.0"
+            android:layout_below="@id/text_view_titulo1"
+            android:theme="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_toRightOf="@id/image_view_filme1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver mais"
+            android:textColor="@color/black"
+            android:paddingHorizontal="32dp"
+            android:layout_below="@id/ratingBa1"
+            android:layout_toRightOf="@id/image_view_filme1"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative_layout_item1"
+        android:background="@drawable/rounded_bg"
+        android:layout_margin="12dp"
+        android:padding="10dp"
+        android:id="@+id/relative_layout_item2"
+
+        >
+        <ImageView
+            android:id="@+id/image_view_filme2"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/paiaco"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/text_view_titulo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Palhaçoes assasinos do espaço sideral"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/image_view_filme2"
+            android:textSize="24sp"
+            />
+        <RatingBar
+            android:id="@+id/ratingBa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:rating="4.5"
+            android:layout_below="@id/text_view_titulo2"
+            android:theme="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_toRightOf="@id/image_view_filme2"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver mais"
+            android:textColor="@color/black"
+            android:paddingHorizontal="32dp"
+            android:layout_below="@id/ratingBa2"
+            android:layout_toRightOf="@id/image_view_filme2"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative_layout_item2"
+        android:background="@drawable/rounded_bg"
+        android:layout_margin="12dp"
+        android:padding="10dp"
+        android:id="@+id/relative_layout_item3"
+
+        >
+        <ImageView
+            android:id="@+id/image_view_filme3"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/Vingadores"
+            />
+
+        <TextView
+            android:id="@+id/text_view_titulo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vingadores"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/image_view_filme3"
+            android:textSize="24sp"
+            />
+        <RatingBar
+            android:id="@+id/ratingBa3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:rating="3.0"
+            android:layout_below="@id/text_view_titulo3"
+            android:theme="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_toRightOf="@id/image_view_filme3"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver mais"
+            android:textColor="@color/black"
+            android:paddingHorizontal="32dp"
+            android:layout_below="@id/ratingBa3"
+            android:layout_toRightOf="@id/image_view_filme3"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative_layout_item3"
+        android:background="@drawable/rounded_bg"
+        android:layout_margin="12dp"
+        android:padding="10dp"
+        android:id="@+id/relative_layout_item4"
+
+        >
+        <ImageView
+            android:id="@+id/image_view_filme4"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/comotreina"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/text_view_titulo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Como treinar seu dragão"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/image_view_filme4"
+            android:textSize="24sp"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:rating="5.0"
+            android:layout_below="@id/text_view_titulo4"
+            android:theme="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_toRightOf="@id/image_view_filme4"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver mais"
+            android:textColor="@color/black"
+            android:paddingHorizontal="32dp"
+            android:layout_below="@id/ratingBar"
+            android:layout_toRightOf="@id/image_view_filme4"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
